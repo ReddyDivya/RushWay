@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+.navbar-toggler-icon{
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+}
+html,h1,h2,h3,h4,h5,h6,a{
+ font-family: "Raleway";
+}
+.navbar{
+  background-color: #008080;
+}
+.nav-link, .navbar-brand{
+  cursor: pointer;
+  color:#f4f4f4;
+}
+.navbar-brand{
+  font-weight: bolder;
+}
+.nav-link{
+  margin-right:1rem;
+}
+.nav-link:hover{
+  background: #ffc107;
+  color: #fff;
+  border-radius: 3px;
+  border-color: #000;
+}
+.navbar-collapse{
+   justify-content: flex-end;
+}
+.navbar-toggler{
+   background:#fff !important;
+}
+.header{
+  background-image: url("images/food.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+.header{
+    height:600px;
+}
+.overlay{
+ position: absolute;
+ min-height: 100%;
+ min-width: 100%;
+ left: 0;
+ top: 0;
+ background: rgba(244, 244, 244, 0.79);
+}
+.description{
+  position: absolute;
+  margin:auto;
+  top:30%;
+  padding: 2em;
+  height: 535px
+}
+.description h1{
+ color:#008080 ;
+}
+.description h2{
+ color:#fff ;
+}
+.description p{
+  color:#666;
+  font-size: 20px;
+  width:50%;
+  line-height: 1.5;
+}
+.description button{
+   border:1px  solid #008080;
+   background:#008080;
+   color:#fff;
+   margin: 4em 0;
+   padding: 1em;
+  position: relative;
+}
+#about h1{
+  color:#008080;
+  margin: 2em;
+}
+#about img{
+   height: 100%;
+   width: 100%;
+   border-radius: 50%;
+}
+#about span{
+  display: block;
+  color: #888;
+  position: absolute;
+  left: 115px;
+}
+#about .desc{
+  padding: 2em;
+  border-left:4px solid #10828C;
+}
+#about .desc h3{
+  color: #10828C;
+}
+#about .desc p{
+  line-height:2;
+  color:#888;
+}
+/*Portfolio*/
+#portfolio{
+  margin:4rem 0;
+  position: relative;
+}
+#portfolio h1{
+ color:#008080;
+ margin: 2em;
+}
+#portfolio img{
+  height: 15rem;
+  width: 90%;
+  margin: 1em;
+}
+/*blog*/
+#blog{
+ margin: 4em 0;
+ position: relative;
+}
+#blog h1{
+ color:#008080;
+ margin: 2em;
+}
+#blog .card{
+ box-shadow: 0 0 20px #ccc;
+}
+#blog .card-title{
+ color:#008080;
+}
+#blog .card-body{
+ padding: 1em;
+}
+/*team*/
+#team{
+ margin: 4em 0;
+ position: relative;
+}
+#team h1{
+ color:#008080;
+ margin: 2em;
+}
+#team .item{
+ position: relative;
+}
+#team .des{
+ text-align: center;
+}
+#team img{
+   border-radius: 50%;
+}
+#team .des img{
+   height: 12em;
+   width: 90%;
+}
+#contact{
+ margin: 6em 0;
+ position: relative;
+}
+#contact h1{
+ padding:2em 1px;
+ color: #008080;
+}
+#contact .right{
+ max-width: 600px;
+}
+#contact .btn-secondary{
+ background:  #008080;
+ color: #fff;
+ border:0;
+}
+#contact .right .form-control::placeholder{
+ color: #888;
+ font-size: 16px;
+}
